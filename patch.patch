@@ -1,0 +1,4 @@
+2489c2489
+< 			shellScript = "\"${SRCROOT}/Scripts/copy-frameworks.sh\"\n";
+---
+> 			shellScript = "#\"${SRCROOT}/Scripts/copy-frameworks.sh\"\n";
