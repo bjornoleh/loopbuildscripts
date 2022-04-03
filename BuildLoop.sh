@@ -103,7 +103,8 @@ then
     clear
     echo -e "\n\n Downloading Loop to your Downloads folder.\n--------------------------------\n"
     git clone --branch=$BRANCH --recurse-submodules $REPO
-
+    cd ..
+    curl -O https://raw.githubusercontent.com/bjornoleh/loopbuildscripts/main/Loopfiles/LoopConfigOverride.xcconfig
     echo -e "--------------------------------\n\n🛑 Please check for errors listed above before proceeding. If there are no errors listed, code has successfully downloaded.\n"
     echo -e "Type 1 and hit enter to open Xcode. You may close the terminal after Xcode opens\n\n"
 
